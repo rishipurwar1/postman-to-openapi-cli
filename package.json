@@ -1,0 +1,30 @@
+{
+  "name": "postman-to-openapi-cli",
+  "version": "1.0.0",
+  "description": "Convert Postman Collection v2.0/v2.1 to OpenAPI v3.0 via CLI",
+  "main": "cli.js",
+  "bin": {
+    "postman-to-openapi": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openapi",
+    "collections",
+    "postman",
+    "schema"
+  ],
+  "author": "Rishi Purwar",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "postman-to-openapi": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishipurwar1/postman-to-openapi-cli.git"
+  },
+  "homepage": "https://github.com/rishipurwar1/postman-to-openapi-cli/blob/main/README.md"
+}
