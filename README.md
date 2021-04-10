@@ -27,4 +27,7 @@ postman-to-openapi -s ./PATH/TO/THE/COLLECTION.JSON -o ./PATH/TO/THE/OUTPUT/OPEN
 
 It takes an input **relative path** of the collection.json file and a **relative path** of the output folder.
 
-
+Example:
+```
+postman-to-openapi -s ./downloads/input.json -o ./downloads/output.yml
+```
