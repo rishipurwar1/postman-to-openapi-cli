@@ -1,5 +1,5 @@
 {
-  "name": "postman-to-openapi-cli",
+  "name": "@rishipurwar1/postman-to-openapi-cli",
   "version": "1.1.1",
   "description": "Convert Postman Collection v2.0/v2.1 to OpenAPI v3.0 via CLI",
   "main": "cli.js",
@@ -7,7 +7,7 @@
     "postman-to-openapi": "cli.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": [
     "openapi",
@@ -26,5 +26,8 @@
     "type": "git",
     "url": "git+https://github.com/rishipurwar1/postman-to-openapi-cli.git"
   },
-  "homepage": "https://github.com/rishipurwar1/postman-to-openapi-cli/blob/main/README.md"
+  "homepage": "https://github.com/rishipurwar1/postman-to-openapi-cli/blob/main/README.md",
+  "publishConfig": {
+    "@rishipurwar1:registry": "https://npm.pkg.github.com"
+  }
 }
